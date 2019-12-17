@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
-import Game from "./Game";
+import Game from "./components/Game";
+import GameMenu from "./components/GameMenu";
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <p>
+          <h2>
             Game of Life
-          </p>
+          </h2>
           <Game/>
+          <GameMenu>
+
+          </GameMenu>
         </header>
       </div>
   );

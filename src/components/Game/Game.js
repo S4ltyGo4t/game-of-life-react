@@ -1,6 +1,11 @@
-import React from "react";
-import "./Game.css";
-import {HEIGHT, WIDTH, CELL_SIZE, Cell} from "./Cell"
+import React from 'react';
+import './Game.css';
+import Cell from '../Cell';
+
+export const CELL_SIZE = 20;
+export const WIDTH = 800;
+export const HEIGHT = 600;
+
 
 class Game extends React.Component {
   state = {cells: [],};
@@ -12,7 +17,7 @@ class Game extends React.Component {
     this.board = this.makeEmptyBoard();
     this.boardRef = React.createRef();
   }
-  
+
   // Create an empty board
   makeEmptyBoard() {
     let board = [];

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Game from './components/Game';
-import GameMenu from './components/GameMenu';
 
 function App() {
   return (
@@ -11,9 +10,9 @@ function App() {
             Game of Life
           </h2>
           <Game/>
-          <GameMenu>
+          {/*<GameMenu>*/}
 
-          </GameMenu>
+          {/*</GameMenu>*/}
         </header>
       </div>
   );

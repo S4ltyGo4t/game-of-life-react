@@ -1,0 +1,1 @@
+export {default, CELL_SIZE, WIDTH, HEIGHT} from './Game'

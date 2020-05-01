@@ -1,7 +1,8 @@
 # Game of Life
-A React implementation of Conway's Game of Life
+A React implementation of Conway's Game of Life<br>
+[Live preview](https://marioweid.github.io/game-of-life-react/)
 
-![Imaage of the App](./img/GameOfLife.png)
+![Image of the App](./img/GameOfLife.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
